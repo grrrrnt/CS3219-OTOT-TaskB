@@ -6,10 +6,7 @@ let reminderSchema = mongoose.Schema({
         required: true
     },
     details: String,
-    remind_when: {
-        type: Date,
-        default: Date.now
-    },
+    remind_when: String,
     create_date: {
         type: Date,
         default: Date.now
