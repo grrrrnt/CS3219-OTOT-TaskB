@@ -116,7 +116,7 @@ describe('Reminders', () => {
     describe('/DELETE/:id reminder', () => {
         it('should DELETE a reminder given the id', (done) => {
             let reminder = new Reminder({
-                reminder: "Upload my original music on Spotify!",
+                reminder: "Distribute my original music on Spotify!",
                 details: "Better do this for my career...",
                 remind_when: "End of the year"
             });
